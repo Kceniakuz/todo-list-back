@@ -1,0 +1,35 @@
+{
+  "name": "todo-list-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kceniakuz/todo-list-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Kceniakuz/todo-list-back/issues"
+  },
+  "homepage": "https://github.com/Kceniakuz/todo-list-back#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "dotenv": "^18.0.9",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^6.19.3"
+  }
+}
